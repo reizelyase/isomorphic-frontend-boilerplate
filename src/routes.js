@@ -9,8 +9,6 @@ export default () => {
       component: require('./ui/core/Login')
     },
     childRoutes: [
-      ...require('./ui/asyncList'),
-      ...require('./ui/counter'),
       {
         component: require('./ui/core/LoginRequired'),
         childRoutes: [{

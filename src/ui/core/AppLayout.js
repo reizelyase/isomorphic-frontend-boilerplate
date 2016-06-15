@@ -6,7 +6,6 @@ import { Grid, Row, Col } from 'react-bootstrap';
 import SiteLogo from './components/SiteLogo';
 import MainNav from './components/MainNav';
 import Toolbar from './components/Toolbar';
-import { Notifications } from 'ui/notifications';
 import styles from './AppLayout.less';
 import cx from 'classnames';
 
@@ -43,7 +42,6 @@ export default class AppLayout extends Component {
 
     return (
       <div>
-        <Notifications vertOffset={60} />
         <div className={cx(styles.layoutWrapper, lwClasses)}>
           <div className={styles.sidebarWrapper}>
             <div className={styles.sidebar}>

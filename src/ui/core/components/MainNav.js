@@ -7,7 +7,6 @@ export default class MainNav extends Component {
     return (
       <ul className={styles.wrapper}>
         <MainNavItem to="/dashboard" icon="th-large">Dashboard</MainNavItem>
-        <MainNavItem to="/async" icon="th-large">Async Test</MainNavItem>
       </ul>
     );
   }
